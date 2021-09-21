@@ -4,7 +4,8 @@ r = true;
 
 function lightTheme(){
     document.querySelector("body").classList.replace("dark","light");
-    document.querySelector("span").innerHTML = "light"
+    document.querySelector(".sp1").innerHTML = "light"
+    document.querySelector(".sp2").innerHTML = "dark"
 
      for(i = 0; i < document.querySelectorAll(".hello").length; i++){
         document.querySelectorAll(".hello")[i].classList.replace("dark-mode","light-mode");
@@ -19,7 +20,8 @@ function lightTheme(){
 
 function darkTheme(){
     document.querySelector("body").classList.replace("light","dark");
-    document.querySelector("span").innerHTML = "dark"
+    document.querySelector(".sp1").innerHTML = "dark"
+    document.querySelector(".sp2").innerHTML = "light"
      for(i = 0; i < document.querySelectorAll(".hello").length; i++){
         document.querySelectorAll(".hello")[i].classList.replace("light-mode","dark-mode");
      }
