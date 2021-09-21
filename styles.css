@@ -1,0 +1,67 @@
+.page{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.hello{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.plain-text{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 0;
+}
+.btn{
+    margin-top: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+}
+
+
+/* LIGHT MODE */
+.light{
+    background-color: #fff;
+}
+.light-mode{
+    color: #121212;
+}
+.light-mode-plain{
+    color: white;
+    background-color: #121212;
+}
+.back-color-light{
+    background-color: white;
+}
+.btn-light{
+color:#121212;
+background-color: white;
+border-color: #121212;
+}
+
+/* DARK MODE */
+.dark{
+    background-color: #121212;
+}
+.dark-mode{
+    color: white;
+}
+.dark-mode-plain{
+    color: #121212;
+    background-color:white;
+    font-weight: 700;
+}
+.back-color-dark{
+    background-color: #121212;
+}
+.btn-dark{
+    color:#fff;
+    background-color: #121212;
+    border-color: #fff;
+    }
